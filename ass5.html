@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- DGL 103 DLU1 - Claire Guiot - Assignment 5 -->
+  <title>Claire's assignment 5</title>
+  <meta charset="utf-8">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      font-family: Arial, "Helvetica", sans-serif;
+      font-size: 16pct;
+      color: #443235;
+    }
+
+    nav { background-color: #e3e2df; }
+
+    .introduction { align: center; }
+
+    #LIST { font-weight: 500; }
+
+    .green-italic-text {
+      font-style: italic;
+      color: cornflowerblue;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="index.html"><img src="images/digital-logo.png" alt="Digital Design + Development" width="100"></a>
+    <h1>Assignment 5</h1>
+  </header>
+
+  <nav>
+    <hr>
+    <div class="container">
+      <b><a href="index.html">Assignment 1</a> &nbsp; <a href="ass2.html">Assignment 2</a> &nbsp; <a
+          href="ass3.html">Assignment 3</a> &nbsp; <a href="ass4.html">Assignment 4</a> &nbsp; <a
+          href="ass5.html">Assignment 5</a></b>
+      </div>
+    <hr>
+  </nav>
+
+  <main>
+    <section class="introduction">
+        <h3>Debugging example</h3>
+        <p>This webpage is deliberately written with some built-in errors for you to explore. It might look ok-ish in the
+          browser you are using, but it might choke on a browser that is less tolerant of coding mistakes.</p>
+        <img src="images/codequality.jpg" width="30%">
+        <div class="green-italic-text">Characteristics of a good quality code are efficiency, reliability, robustness,
+          portability, maintainability and readability.</div>
+    </section>
+    <section class="instructions">
+      <div class="container">
+        <h2>Instructions</h2>
+        <ol>
+          <li>
+            Look at the source code in VS Code. Can you identify the invalid HTML and CSS? <strong>Correct all the
+              errors you can find and make sure you document your corrections by adding comments. You can use the VSCode extension HTMLHint and your browser's developer tools to help you.
+              <ul>
+                <li id="LIST">Some of the errors could be unclosed elements or badly nested elements.
+                  <strong>Nesting elements properly is <em>important for code to behave correctly.</strong></em>
+                </li>
+                <li id="LIST">Some of the code might be valid but it might not make the best use of semantic HTML.</li>
+                <li id="LIST">Some of the code might be poorly formatted with errors such as incorrect indentation or
+                  capitalization.</li>
+                  <li id="LIST">Make sure you know what every line of code does. There may be occasions when you could code the solution in a couple of different ways. Do what you think will make the code as concise and clean as possible.</li> 
+                  <li id="LIST">Refer to the Coding Best Practices checklist as you work. Make sure files are well organized and your code is well formatted with consistent indents and spacing.</li>
+              </ul>
+          <li>Run this page through the <a href="https://validator.w3.org/ target="_blank">W3C HTML Validator</a>. Did you find the same mistakes that the Validator found? Correct any problems found by the Validator, then save the web page, and retest until the web page passes the validity test. Take a screenshot of the results. </li>
+          <li>Run this page through the <a href=" https://jigsaw.w3.org/css-validator/validator" target="_blank">W3C CSS
+              Validator</a>. Did you find the same mistakes that the Validator found? Correct any problems found by
+            the Validator, then save the web page, and retest until the web page passes the validity test. Take a
+            screenshot of the results.</li>
+            <li>Although the W3C validation results may show no errors, that doesn't mean that your code follows best practices. Don't rely only on validation to check that you have written quality code.</li>
+            <li>Although the W3C validation results may show no errors, that doesn't mean that your code
+              follows best practices. Don't rely only on validation to check that you have written quality code.
+            </li>
+            <li>When you are finished correcting the code, don't forget to add embedded CSS styles to make `ass5.html` look like the image in the assignment's readme file.</li>
+        </ol>
+      </div>
+  </section>
+  </main>
+</body>
+
+</html>
